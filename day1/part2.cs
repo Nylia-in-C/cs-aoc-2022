@@ -13,21 +13,17 @@ namespace elven_calories{
                     this_elf += int.Parse(num);
                 }
                 else {
-                    //Console.WriteLine("This new elf here {0:d}", this_elf);
                     if (first < this_elf){
                         third = second;
                         second = first;
                         first = this_elf;
-                        //Console.WriteLine("New First place {0:d}", first);
                     }
                     else if (second < this_elf){
                         third = second;
                         second = this_elf;
-                        //Console.WriteLine("New Second place {0:d}", second);
                     }
                     else if (third < this_elf){
                         third = this_elf;
-                        //Console.WriteLine("New Third place {0:d}", third);
                     }
                     this_elf = 0;
                 }
