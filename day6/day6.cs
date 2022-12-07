@@ -26,8 +26,5 @@ namespace signals{
                 }
             }
         }
-        
-         static void part2(string[] input){
-        }
     }
 }
